@@ -1,0 +1,49 @@
+form label,
+form legend {
+    display: block;
+    margin: 10px 0px;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 1px;
+    font-size: 16px;
+}
+
+fieldset {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+form input[type=radio],
+form input[type=checkbox] {
+    display: inline-block;
+    width: auto;
+}
+
+.label-inline {
+    display: inline-block;
+}
+
+form input[type=submit] {
+    margin: 10px auto;
+    min-width: 300px;
+    width: 30%;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    background-color: darkgreen;
+    transform: scale(1.1);
+}

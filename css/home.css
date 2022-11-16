@@ -1,0 +1,13 @@
+.d-flex{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.flex-2-col{
+    width: 50%;
+    flex-grow: 1;
+}
+
+.flex-3-col{
+    width: 33%;
+}

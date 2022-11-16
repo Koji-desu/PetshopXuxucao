@@ -5,18 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/imagens/pet_store_shop_building_animal_icon_124625.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contatos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/css/produtos.css">
     <title>Petshop Xuxucão</title>
 </head>
 
 <body>
-
 
     <header class="container">
 
@@ -37,34 +35,41 @@
             <img src="/imagens/13-133360_puppies-transparent-background-png-imagem-de-cachorro-png.png"
                 alt="Foto de pets" id="banner">
 
-            <h2>Produtos</h2>
-            <ul id="listaProdutos">
-                <a href="banhoetosa.html">
-                    <li>
-                        <h3>Banho e Tosa</h3>
-                        <img src="/imagens/banhodog.png" alt="imagem de cachorro tomando ducha">
-                        <p>Produtos de alta qualidade e tosadores treinados, temos produtos especiais para pets com
-                            problemas dermatológicos.</p>
-                    </li>
-                </a>
+            <h2>Contatos</h2>
 
-                <a href="racoes.html">
-                    <li>
-                        <h3>Rações</h3>
-                        <img src="/imagens/racaodog.png" alt="imagem de pote de ração de cachorro">
-                        <p>Diferentes marcas de comida, sempre fresca e com melhor preço da região</p>
-                    </li>
-                </a>
-                <a href="veterinario.html">
-                    <li>
-                        <h3>Veterinário</h3>
-                        <img src="/imagens/vetdog.png" alt="imagem de um veterinario avaliando um cachorro">
-                        <p>Disponível 24h para qualquer emergência, aplicação de vacinas e cuidado especial com seu pet
-                        </p>
-                    </li>
-                </a>
-            </ul>
+            <form action="">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="seuemail@email.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="" id="telefone" placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Digite sua mensagem: </label>
+                <textarea name="" id="mensagem" cols="30" rows="10"></textarea>
+
+
+                <fieldset>
+
+                    <legend>Para quem é a mensagem?</legend>
+                    <input type="radio"  id="radiopetshop" name="contato" checked>
+                    <label for="radiopetshop" class="label-inline">Petshop</label>
+
+
+                    <input type="radio" id="radiovet" name="contato">
+                    <label for="radiovet" class="label-inline">Veterinário</label>
+
+                </fieldset>
+
+                <input type="checkbox" name="" id="promocao">
+                <label for="promocao" class="label-inline">Eu desejo receber promoções futuras</label>
+
+                <input type="submit" value="Enviar"></button>
+            </form>
         </section>
+
 
     </main>
 
@@ -85,7 +90,6 @@
         </div>
 
     </footer>
-
 </body>
 
 </html>
